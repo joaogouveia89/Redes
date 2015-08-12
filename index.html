@@ -23,6 +23,20 @@
 <ol>
 	<li><a href="#historico"> Hist&oacute;rico </a></li>
 	<li><a href="#componentes_basicos_de_uma_rede">Componentes b&aacute;sicos de uma rede</a></li>
+	<li><a href="#lan_man_wan">LAN, MAN e WAN</a>
+		<ol>
+			<li><a href="#lan">LAN</a></li>
+			<li><a href="#man">MAN</a></li>
+			<li><a href="#wan">WAN</a></li>
+		</ol>
+	</li>
+	<li><a href="#protocolo_de_rede">Protocolo de Rede</a></li>
+	<li><a href="#formas_de_ligacao_ao_meio">Formas de Liga&ccedil;&atilde;o ao Meio</a>
+		<ol>
+			<li><a href="#multiponto">Multiponto</a></li>
+			<li><a href="#peer_to_peer">Ponto a Ponto(Peer to Peer)</a></li>
+		</ol>
+	</li>
 </ol>
 <hr>
 <h2>Hist&oacute;rico</h2>
@@ -61,16 +75,76 @@
 		<li>Par tran&ccedil;ado: De f&aacute;cil instala&ccedil;&atilde;o e barato, por&eacute;m pode sofrer facilmente interfer&ecirc;ncia eletromagn&eacute;tica e suas informa&ccedil;&otilde;es podem ser facilmente roubadas</li>
 		<li>Fibra: Seguro e r&aacute;pido, &eacute; a melhor op&ccedil;&atilde;o entre os 3, por&eacute;m seu pre&ccedil;o &eacute; elevado</li>
 	</ul>
+	<p><b>Quanto menor o n&uacute;cleo, menor a dispers&atilde;o modal e mais longe o sinal pode alcan&ccedil;ar</b></p>
 </div>
 <a name="componentes_basicos_de_uma_rede">
 <h2>Componentes b&aacute;sicos de uma rede</h2>
 <ul id="componentes_basicos_de_uma_rede_list">
 	<li>Computadores servidores(arquivo, impress&atilde;o, firewall, aplicativos)</li>
+	<ul>
+		<li>Servidor especializado: Tem somente um servi&ccedil;o</li>
+		<li>Servidor dedicado: S&oacute; &eacute; dedicado a ser servidor e nunca atuar&aacute; como cliente</li>
+	</ul>
 	<li>Computadores clientes</li>
 	<li>Dispositivos de conectividade(Hub, Switch, Router)</li>
+	<ul>
+		<li>Brouter: Switch com fun&ccedil;&atilde;o de router</li>
+		<li>Gateway: Equipamento que permite a comunica&ccedil;o entre 2 ou mais ambientes de TI</li>
+		<li>Router: Permite a comunica&ccedil;&atilde;o entre redes</li>
+		<li>Internet: V&aacute;rios roteadores ligados entre si</li>
+	</ul>
 	<li>Sistemas operacionais de rede</li>
 	<li>Softwares, aplicativos e utilit&aacute;rios</li>
 	<li>Cabeamento/Wireless</li>
+</ul>
+<a name="lan_man_wan">
+<h2>LAN, MAN e WAN</h2>
+<ul>
+	<li><u>LAN</u>
+		<a name="lan"></a>
+		<ul>
+			<li>S&atilde;o as chamadas redes locais. Interligam computadores em um espa&ccedil;o geograficamene restrito. Geralmente s&atilde;o privadas e permitem altas taxas de transmiss&atilde;o de dados.</li>
+			<img src="imagens/imagem0003.jpeg">
+		</ul>
+	</li>
+	<li><u>MAN</u>
+		<a name="man"></a>
+		<ul>
+			<li>S&atilde;o as chamadas redes metropolitanas. Abrangem uma regi&atilde;o maior que a LAN e possibilitam a interliga&ccedil;&atilde;o com computadores em uma regi&atilde;o metropolitana.</li>
+			<img src="imagens/imagem0004.jpeg">
+		</ul>
+	</li>
+	<li><u>WAN</u>
+		<a name="wan"></a>
+		<ul>
+			<li>S&atilde;o redes de longa dist&acirc;ncia que interligam computadores em um espa&ccedil;o geograficamente disperso, como por exemplo pa&iacute;ses.</li>
+			<img src="imagens/imagem0005.jpeg">
+		</ul>
+	</li>
+</ul>
+<a name="protocolo_de_rede">
+<h2>Protocolo de Rede</h2>
+<ul>
+	<li>Conjunto de regras, padr&otilde;es pr&eacute; estabelecidas para que a comunica&ccedil;&atilde;o entre equipamentos de TI possa ocorrer. Como exemplo: TCP/IP, IPX/SPX</li>
+	<li>Padr&otilde;es de comunica&ccedil;&atilde;o tais como simplex, half-duplex, full-duplex, compactado, criptografado, EBCDIC, ASCII,...</li>
+</ul>
+<a name="formas_de_ligacao_ao_meio"></a>
+<h2>Formas de Liga&ccedil;&atilde;o ao Meio</h2>
+<ul>
+	<li><u>Multiponto</u>
+	<a name="multiponto"></a>
+		<ul>
+			<li>Tr&ecirc;s ou mais computadores ligados a um meio de comunica&ccedil;&atilde;o central</li>
+			<img src="imagens/imagem0006.jpeg">
+		</ul>
+	</li>
+	<li><u>Ponto a Ponto(Peer to peer)</u>
+	<a name="peer_to_peer"></a>
+		<ul>
+			<li>Ocorre quando 2 equipamentos compartilham o mesmo meio de comunica&ccedil;&atilde;o</li>
+			<img src="imagens/imagem0007.jpeg">
+		</ul>
+	</li>
 </ul>
 </body>
 </html>
