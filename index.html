@@ -53,6 +53,7 @@
 	</li>
 	<li><a href="#backbone">Backbone</a></li>
 	<li><a href="#firewall">Firewall</a></li>
+	<li><a href="#dmz">Zona Desmilitarizada</a></li>
 </ol>
 <hr>
 <h2>Hist&oacute;rico</h2>
@@ -153,7 +154,6 @@
 			<li>Tr&ecirc;s ou mais computadores ligados a um meio de comunica&ccedil;&atilde;o central</li>
 			<img src="imagens/imagem0006.jpeg">
 			<p><b>Enlace: Meio de transmiss&atilde;o utilizado pela informa&ccedil;&atilde;o</b></p>
-			<p><b>Backbone: Nome dado ao principal enlace de uma rede</b></p>
 			<li>3 ou mais equipamentos compartilham o mesmo enlace</li><br>
 		</ul>
 	</li>
@@ -245,6 +245,32 @@
 <h2>Firewall</h2>
 <ul>
 	<li>Conjunto de Hardware ou software destinado a proteger a rede, bancos de dados contra acessos n&atilde;o autorizados ou indevidos</li>
+	<li>Appliance: Equipamento voltado a ser somente Firewall</li>
+	<li>Regras de Firewall: Origem, destino, protocolo, a&ccedil;&atilde;o e log</li>
+	<li>Arquitetura de Firewall
+		<ul>
+			<li>Cl&aacute;ssica</li>
+			<img src="imagens/imagem0018.jpeg">
+			<li>Redundante</li>
+			<ul>
+				<li>Load Balance: Distribui&ccedil;&atilde;o do trabalho de firewall entre os firewalls</li>
+			</ul>
+			<img src="imagens/imagem0019.jpeg">			
+			<li>Firewall interno</li>
+			<ul>
+				<li>O firewall &eacute; uma segunda camada de seguran&ccedil;a dos server farm</li>
+			</ul>
+			<img src="imagens/imagem0020.jpeg">			
+			<li>Personal Firewall</li>
+			<img src="imagens/imagem0021.jpeg">
+		</ul>
+	</li>
+</ul>
+<a name="dmz">
+<h2>Zona desmilitarizada</h2>
+<ul>
+	<li><u>Conceito:</u> Segmento de rede com acesso autorizado por regras espec&iacute;ficas de libera&ccedil;&atilde;o do Firewall. Segmento da rede onde s&atilde;o instalados os equipamentos com permiss&atilde;o de acesso pela internet, como por exemplo o servidor web(www), correio eletr&ocirc;nico, DNS, dentre outros</li>
+	<img src="imagens/imagem0022.jpeg">
 </ul>
 </body>
 </html>
