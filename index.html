@@ -54,6 +54,7 @@
 	<li><a href="#backbone">Backbone</a></li>
 	<li><a href="#firewall">Firewall</a></li>
 	<li><a href="#dmz">Zona Desmilitarizada</a></li>
+	<li><a href="#hub_switch_roteador">Hub, Switch e Roteador</a></li>
 </ol>
 <hr>
 <h2>Hist&oacute;rico</h2>
@@ -270,7 +271,44 @@
 <h2>Zona desmilitarizada</h2>
 <ul>
 	<li><u>Conceito:</u> Segmento de rede com acesso autorizado por regras espec&iacute;ficas de libera&ccedil;&atilde;o do Firewall. Segmento da rede onde s&atilde;o instalados os equipamentos com permiss&atilde;o de acesso pela internet, como por exemplo o servidor web(www), correio eletr&ocirc;nico, DNS, dentre outros</li>
+	<li>Rede desprotegida, conectada ao firewall da rede(segmento de rede)</li>
+	<li>Disponibiliza servi&ccedil;os desejados que o usu&aacute;rio acesse</li>
+	<li>Honey Pot: DMZ virtual, criada no firewall para confundir um posss&iacute;vel atacante</li>
 	<img src="imagens/imagem0022.jpeg">
+</ul>
+<a name="hub_switch_roteador">
+<h2>Hub, Switch e Roteador</h2>
+<ul>
+	<li><u>Hub: </u>
+		<ul>
+			<li>Equipamento de conectividade que n&atilde;o segmenta a rede, corresponde a um barramento &uacute;nico e possui um &uacute;nico dom&iacute;nio de colis&otilde;es</li>
+			<li>Est&aacute; em desuso, n&atilde;o segmenta a rede(todas as portas escutam todas as comunica&ccedil;&otilde;es</li>
+			<li>Se a porta 1 comunica, a porta 3 tamb&eacute;m ouve e isso pode causar muitas colis&otilde;es.</li>
+			<li>Dom&iacute;nio &uacute;nico de colis&otilde;es</li>
+			<img src="imagens/imagem0023.jpeg">
+		</ul>
+	</li>
+	<li><u>Switch: </u>
+		<ul>
+			<li>Equipamento de conectividade que segmenta a rede</li>
+			<li>Cada porta do switch corresponde a um dom&iacute;nio de colis&atilde;o</li>
+			<li>Permite uma melhoria de performance em rela&ccedil;&atilde;o ao tipo de funcionamento do hub</li>
+			<li>Segmenta a rede: as comunica&ccedil;&otilde;es de cada porta &eacute; independente)cada porta &eacute; um dom&iacute;nio de colis&atilde;o</li>
+			<img src="imagens/imagem0024.jpeg">
+			<li>Endere&ccedil;os MAC</li>
+		</ul>
+	</li>
+	<li><u>Roteador: </u>
+		<ul>
+			<li>Equipamento de conectividade que permite o roteamento de pacotes de dados entre redes de computadores</li>
+			<li>Formas de funcionamento: Est&aacute;tico e Din&acirc;mico</li>
+			<img src="imagens/imagem0025.jpeg">
+			<li>M&aacute;scara de rede</li>
+			<p>255.255.0.0</p>
+			<img src="imagens/imagem0026.jpeg">
+			<img src="imagens/imagem0027.jpeg">
+		</ul>
+	</li>
 </ul>
 </body>
 </html>
