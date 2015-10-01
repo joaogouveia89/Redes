@@ -55,6 +55,14 @@
 	<li><a href="#firewall">Firewall</a></li>
 	<li><a href="#dmz">Zona Desmilitarizada</a></li>
 	<li><a href="#hub_switch_roteador">Hub, Switch e Roteador</a></li>
+	<li><a href="#projeto_de_rede">Projeto de rede</a>
+		<ol>
+			<li><a href="#projeto_logico">Projeto L&oacute;gico</a></li>
+			<li><a href="#projeto_fisico">Projeto F&iacute;sico</a></li>
+		</ol>
+	</li>
+	<li><a href="#internet_intranet_extranet">Internet/Intranet/Extranet</a></li>
+	<li><a href="#topologia_de_redes">Topologia de Redes</a></li>
 </ol>
 <hr>
 <h2>Hist&oacute;rico</h2>
@@ -309,6 +317,132 @@
 			<img src="imagens/imagem0027.jpeg">
 		</ul>
 	</li>
+</ul>
+<a name="projeto_de_rede">
+<h2>Projeto de Rede</h2>
+<p>etapas: Projeto l&oacute;gico e f&iacute;sico</p>
+<ul>
+	<a name="projeto_logico"></a>
+	<li><u>Projeto L&oacute;gico</u></li>
+	<ul>
+		<b><u>12.1.1</u></b>
+		<li>Computadores clientes</li>
+		<li>Hardware</li>
+		<li>Software</li>
+		<li>Configura&ccedil;&atilde;o</li>
+		<b><u>12.1.2</u></b>
+		<li>Computadores servidores</li>
+		<li>Hardware</li>
+		<li>Software</li>
+		<li>Configura&ccedil;&atilde;o</li>
+		<li>Tipos de servidores/servi&ccedil;os</li>
+		<b><u>12.1.3</u></b>
+		<li>Cabeamento</li>
+		<ul>
+			<li>Projeto de cabeamento estruturado(dispositivos,racks, patch panel, tipos de cabeamento vertical e horizontal, plantas, cortes</li>
+		</ul>
+		<b><u>12.1.4</u></b>
+		<li>Seguran&ccedil;a</li>
+		<ul>
+			<li>Mapa de permiss&otilde;es</li>
+			<li>Arquitetura de Firewall</li>
+			<img src="imagens/imagem0028.jpeg">
+			<li>Estrutura de backup</li>
+			<li>Pol&iacute;tica de seguran&ccedil;a</li>
+			<li>Plano de Contig&ecirc;ncia</li>
+			<li>Seguran&ccedil;a f&iacute;sica: Datacenter</li>
+			<li>Software de gerenciamento</li>
+		</ul>
+		<b><u>12.1.5</u></b>
+		<li>Defini&ccedil;&atilde;o do site/portal/app de gest&atilde;o</li>
+		<li>SSO</li>
+		<li>Defini&ccedil;&atilde;o do ERP</li>
+		<b><u>12.1.6</u></b>
+		<li>Cronograma f&iacute;sico</li>
+		<b><u>12.1.7</u></b>
+		<li>Mapa de testes</li>
+
+	</ul>
+	<a name="projeto_fisico"></a>
+	<li><u>Projeto F&iacute;sico</u></li>
+	<ul>
+		<li>Aquisi&ccedil;&atilde;o, instala&ccedil;&atilde;o, configura&ccedil;&atilde;o, mapa de testes, opera&ccedil;&atilde;o assistida, manuten&ccedil;&atilde;o</li>
+	</ul>
+</ul>
+<a name="internet_intranet_extranet">
+<h2>Internet/Intranet/Extranet</h2>
+<img src="imagens/imagem0029.jpeg">
+<ul>
+	<li>Conjunto mundial de gateways que utilizam o protocolo TCP/IP para permitir a comunica&ccedil;&atilde;o entre redes</li>
+
+	<li><b><u>Intranet</u></b></li>
+	<ul>
+		<li>Rede interna de uma empresa que utiliza os conceitos e aplica&ccedil;&otilde;es da internet para a disponibiliza&ccedil;&atilde;o de servi&ccedil;os</li>
+	</ul>
+	<li><b><u>Extranet</u></b></li>
+	<ul>
+		<li>Extens&atilde;o da intranet corporativa que utiliza tecnologia web para permitir a conex&atilde;o segura entre redes de empresas, fornecedores e clientes</li>
+		<li>Gateway: Conjunto de software e hardware destinados a conex&atilde;o de dois ou mais ambientes computacionais</li>
+	</ul>
+</ul>
+<a name="topologia_de_redes">
+<h2>Topologia de Rede</h2>
+
+<ul>
+	<li>Existe dois tipos de topologia, a l&oacute;gica e a f&iacute;sica</li>
+	<li><u><b>Topologia f&iacute;sica</u></b></li>
+	<ul>
+		<li>Chamamos de topologia f&iacute;sica ao layout dos equipamentos em uma rede, a forma, disposi&ccedil;&atilde;o geogr&aacute;fica das m&aacute;quinas na rede, a disposi&ccedil;&atilde;o f&iacute;sica de como eles est&atilde;o conectados</li>
+		<li><u><b>Topologia barra ou barramento</b></u></li>
+		<ul>
+			<img src="imagens/imagem0030.jpeg">
+			<li>Todos os equipamentos est&atilde;o conectados num mesmo meio de comunica&ccedil;&atilde;o</li>
+			<li>Paradas no meio de comunica&ccedil;&atilde;o barra, provocam paradas em toda a rede</li>
+			<li>A barra corresponde a um &uacute;nico dom&iacute;nio de colis&otilde;es</li>
+		</ul>
+		<li><u><b>Topologia Estrela</b></u></li>
+		<img src="imagens/imagem0031.jpeg">
+		<ul>
+			<li>As m&aacute;quinas ficam conectadadas no equipamento (n&oacute;) central</li>
+			<li>Paradas no equipamento central param a rede</li>
+			<li>Paradas nos n&oacute;s secund&aacute;rios n&atilde;o interrompem a rede, apenas o n&oacute; em quest&atilde;o</li>
+			<li>Performance depende muito do n&oacute; central</li>
+		</ul>
+		<li><u><b>Topologia Anel</b></u></li>
+		<img src="imagens/imagem0032.jpeg">
+		<ul>
+			<li>Paradas no anel interrompem a rede</li>
+			<li>As placas de rede podem assumir 3 valores distintos: escuta, transmiss&atilde;o e bypass</li>
+			<li>Quando uma mensagem &eacute; enviada pelo anel, ela circula pelo mesmo e &eacute; copiada pelo n&oacute; de destino e retirada pelo n&oacute; de origem</li>
+			<li>Pode-se utilizar o anel duplo para redundancia da rede</li>
+			<img src="imagens/imagem0033.jpeg">
+			<li>O anel secund&aacute;rio entra em funcionamento em caso de falha do primeiro</li>
+		</ul>
+		<li>Topologia malha(mash)</li>
+	</ul>
+	<li><u><b>Topologia l&oacute;gica</u></b></li>
+	<ul>
+		<li>Refere-se &agrave; uma forma, &agrave;s regras de comunica&ccedil;&atilde;o que regem as transmiss&otilde;es em uma topologia f&iacute;sica</li>
+		<ul>
+			<li><u><b>Topologia l&oacute;gica barra</b></u></li>
+			<ul>
+				<li>Quando um n&oacute; transmite, todos os n&oacute;s do mesmo barramento escutam a transmiss&atilde;o</li>
+				<li>Somente 2 equipamentos podem estar em comunica&ccedil;&atilde;o em um mesmo barramento</li>
+				<li>Quando 2 ou mais equipamentos transmitem simultaneamente h&aacute; colis&atilde;o (protocolo CSMA-CD)</li>
+			</ul>
+			<li><u><b>Topologia l&oacute;gica anel</b></u></li>
+			<ul>
+				<li>Somente um equipamento transmite por vez</li>
+				<li>Somente equipamentos que possuem o token(permiss&atilde;o de transmiss&atilde;o) pode transmitir(token pass)-&gt;IBM</li>
+			</ul>
+		</ul>
+	</ul>
+</ul>
+<a name="sop_de_rede">
+<h2>Estrutura de um SOP de Rede</h2>
+	
+<ul>
+	<li><u><b>Intera&ccedil;&atilde;o direta com o hardware</u></b></li>
 </ul>
 </body>
 </html>
